@@ -1,0 +1,13 @@
+.safina{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: skyblue;
+    color: white;
+}
+hr{
+border-bottom: 2px solid skyblue;
+}
+h2{
+    color: skyblue;
+}

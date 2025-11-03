@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    background-color: rgb(64, 63, 63);
+    font-family: monospace;
+}
+.continer{
+    width: 80vw;
+    height: 59vw;
+    margin: 0 auto;
+}
+.box{
+    width: 200px;
+    height: 200px;
+   background-color: rgb(248, 246, 244);
+   text-align: center;
+   padding: 20px;
+   border-radius: 7px;
+   margin: 10px auto;
+}
+
+h3,p{
+    margin-top: 10px;
+}
+.ava{
+    width: 50px;
+    height: 50px;
+   background-image: url(0a99682c32cc586de91e7c13dfb6bccc.jpg );
+   background-size: cover;
+    margin: 0px auto;
+    border-radius: 100px;
+}

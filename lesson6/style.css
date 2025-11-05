@@ -1,0 +1,30 @@
+.box{
+    width: 250px;
+    height: 250px;
+    background: linear-gradient( to right, red, blue, yellow,  pink);
+}
+.box2{
+    width: 250px;
+    height: 250px;
+    background:linear-gradient(45deg, pink, red) 
+}
+.box3{
+     width: 250px;
+    height: 250px;
+    background: linear-gradient(to left, yellow, green )
+}
+.box4{
+     width: 250px;
+    height: 250px;
+    background:linear-gradient(to top, black, white)
+}
+.box5{
+     width: 250px;
+    height: 250px;
+    background: linear-gradient(to bottom, orange, blue)
+}
+.box6{
+      width: 250px;
+    height: 250px;
+    background:linear-gradient( circle, red, yellow)
+}

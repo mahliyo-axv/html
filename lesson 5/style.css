@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(117, 123, 130);
+}
+
+
+.continer{
+    margin: 50px;
+width: 400px;
+height: 400px;
+background-color: white;
+border-radius: 10px;
+padding: 10px;
+}
+.boxmargin{
+    margin: 0px auto;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(111, 111, 247);
+}
+.boxborder{
+    
+}

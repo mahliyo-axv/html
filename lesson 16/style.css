@@ -1,0 +1,25 @@
+.box{
+    width: 100;
+    height: 100;
+    background-color: pink;
+    transition: transform 1s ease-in;
+    animation: misol 3s ease-in 1s infinite alternate;
+}
+@keyframes misol{
+ 0%{
+    transform: translateX(0);
+ }
+  50%{
+       transform:  translateX(800px) scale(2) rotate(360deg);   
+    }
+60%{
+    transform: translate(800px) scale(2) rotate(360deg);
+}
+80%{
+    transform: translate(400px,400px) scale(2) rotate(360deg);
+}
+100%{
+transform: translate(0,0) scale(2) rotate(360deg);
+}
+  
+}

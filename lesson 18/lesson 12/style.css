@@ -1,0 +1,53 @@
+ .flex.continer{
+display: flex;
+gap: 10px;
+}
+.box{
+    width: 100px;
+ line-height: 100px;
+border-radius: 20px;
+text-align: center;
+
+}
+
+
+.blue{
+  background-color: blue;
+}
+.red{
+    background-color: red
+}
+.grey{
+   background-color: green;
+}
+.flex.continer2{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+   height: 100%;
+}
+ .box{
+     width: 100px;
+ line-height: 100px;
+border-radius: 20px;
+text-align: center;
+ }
+ .yellow{
+    background-color: blueviolet;
+ }
+ .flex.continer3{
+  display: flex;
+  flex-wrap: wrap;
+ }
+ .box{
+
+    width: 100px;
+ line-height: 100px;
+border-radius: 20px;
+text-align: center;
+ }
+ .gren{
+   flex-grow: 1;
+  background-color: green;
+ }

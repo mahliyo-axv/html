@@ -16,3 +16,12 @@ a{
 text-decoration: none;
 padding: 7px;
 }
+.box2{
+   box-shadow: 5px 5px 50px black;
+    margin: 100px auto;
+    width: 300px;
+background-color: white;
+border-radius: 10px;
+text-align: center;
+padding: 10px; 
+}

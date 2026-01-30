@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 80%;
+    margin: 150px auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+        flex-wrap: wrap;
+
+}
+.main-r{
+    display:flex;
+    flex-basis: 300px;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: start;
+
+h1{
+    color: pink;
+    font-size: 40px;
+    font-weight: 100;
+}
+button{
+border-radius: 20px;
+width: 200px;
+height: 30px;
+background-color: pink;
+border: none;
+}
+}
+.main-r:hover{
+    background-color: brown;
+}
+

@@ -1,18 +1,88 @@
-#Mahliyo{
-    color: rgb(19, 206, 16);
-    background-color: blueviolet;
+/* .continer{
+    height: 10vh;
+display: grid;
+grid-template-columns:1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr ;
+gap: 3px;
 }
-p{
-    color: blueviolet;
+.box{
+    text-align: center;
+    background-color: brown;
+    display: grid;
+    justify-content: center; 
+    align-items: center;     
+
 }
-h2{
-    color: green;
+.one{
+    background-color: rgb(236, 194, 8);
+    grid-column: 1 /4;
+    height: 30px;
 }
-#m{
-    color: red;
-    background-color: yellow;
+.twu{
+    background-color: red;
+    height: 50px;
+  grid-column: 2 /4;
 }
-#S{
- color: red;
-    background-color: yellow;   
+.the{
+    background-color: rgb(236, 194, 8);
+    height: 30px;
+     grid-column: 1 /4;
+}
+.gt{
+    background-color: chocolate;
+   grid-row: 2 / 4;
+}
+.th{
+   height: 70px;
+    background-color: rgb(217, 81, 255);
+} */
+.continer1{
+height: 100vh;
+display: grid;
+grid-template-columns:repeat(4, 1fr);
+grid-template-rows: repeat(4, 1fr);
+gap: 3px;
+}
+.box{
+    background-color: brown;
+}
+.on{
+    grid-row: 1 / 3;
+    grid-column: 1 /3;
+    background-image:url(https://i.pinimg.com/236x/87/90/a7/8790a7f903086aff7df1d85ba8a060a2.jpg);
+    background-size: cover;
+}
+.ht{
+    grid-column: 3 / 5;
+    background-image: url(https://suret.pics/uploads/posts/2023-09/1695452637_2-1.jpg);
+    background-size: cover;
+}
+.red{
+grid-column: 3 / 5;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP9SLknUpDH-JAxVk4cWjrWUGDRAOfnxsXrA&s);
+    background-size: cover;
+}
+.blue{
+    grid-column: 1 / 3;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTLJfuSARK_DNnArRUvKuuHGbQrMkB9du6xQ&s);
+    background-size: cover;
+}
+.green{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR1w43E4mG5_1Yj4rSkywEfX6JID4b9biVqQ&s);
+   background-size: cover;
+}
+.yellow{
+    grid-row: 3 / 5;
+    grid-column: 4 / 4;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTylU-GNMRIJrf3Nd0XzMGTwuNn12LFiHxMCQ&s);
+    background-size: cover;
+}
+.true{
+    background-image: url(https://pbs.twimg.com/media/FVFDSoaWAAA0ILo.jpg);
+    background-size: cover;
+}
+.tp{
+    grid-column: 2 / 4;
+  background-image: url(https://i.pinimg.com/originals/0a/99/68/0a99682c32cc586de91e7c13dfb6bccc.png);
+    background-size: cover;  
 }

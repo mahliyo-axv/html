@@ -1,0 +1,125 @@
+.continer{
+    display: flex;
+    gap: 7px;
+}
+.box{
+    border-radius: 7px;
+    height: 70px;
+    width: 100px;
+    background-color: rgb(76, 176, 234);
+}
+
+.red{
+    background-color: brown;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.green{
+   transform: rotate(50deg);
+   animation: puls 2s infinite;
+}
+@keyframes puls {
+    0%{
+        transform: rotate(1deg);
+    }
+    50%{
+         transform: rotate(50deg);
+    }
+    100%{
+         transform: rotate(1deg);
+    }
+}
+.yelow{
+    transform: skew(10deg);
+    animation: pul 2s infinite;
+}
+@keyframes pul{
+    0%{
+        transform: skew(0deg)
+    }
+    50%{
+        transform: skew(-20deg);
+    }
+}
+.oran{
+    border-radius: 100px;
+    animation: pu 3s infinite;
+}
+@keyframes pu{
+    0%{
+        border-radius: 0;
+    }
+    50%{
+        border-radius: 100px;
+    }
+    100%{
+        border-radius: 0;
+    }
+}
+.blue{
+    transition: 0.3s;
+}
+.blue:hover{
+    background-color: rgb(190, 106, 106);
+}
+.br{
+    box-shadow: 1px 4px 15px rgba(112, 8, 8, 10);
+}
+.tr{
+    opacity: 0.5;
+    transition: 0.3s;
+}
+.oranse{
+     transform: rotate(50deg);
+   animation: p 2s linear infinite;
+}
+@keyframes p {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+          transform: rotate(360deg);;
+    }
+}
+.hte{
+    background-color: yellow;
+    transform: translateY(-30px);
+    animation: t 2s linear infinite;
+}
+@keyframes t{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+         transform: translateY(0);
+    }
+}
+.the{
+    transform: translateY(-30px);
+    animation: t 2s linear infinite;
+}
+@keyframes t{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-30px);
+    }
+    100%{
+         transform: translateY(0);
+    }
+}

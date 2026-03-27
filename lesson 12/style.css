@@ -1,53 +1,26 @@
- .flex.continer{
-display: flex;
-gap: 10px;
+body{
+    background-color: bisque;
+}
+
+.continer{
+ display: flex; 
+}
+.continer2{
+    display: flex;
+    justify-content: space-between;
 }
 .box{
-    width: 100px;
- line-height: 100px;
-border-radius: 20px;
-text-align: center;
-
+    border: solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 150px;
+    background-color: white;
 }
-
-
-.blue{
-  background-color: blue;
+img{
+    border-radius: 10px;
 }
-.red{
-    background-color: red
+a{
+    color: rgb(209, 14, 14);
+text-decoration: none;
 }
-.grey{
-   background-color: green;
-}
-.flex.continer2{
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  align-items: center;
-   height: 100%;
-}
- .box{
-     width: 100px;
- line-height: 100px;
-border-radius: 20px;
-text-align: center;
- }
- .yellow{
-    background-color: blueviolet;
- }
- .flex.continer3{
-  display: flex;
-  flex-wrap: wrap;
- }
- .box{
-
-    width: 100px;
- line-height: 100px;
-border-radius: 20px;
-text-align: center;
- }
- .gren{
-   flex-grow: 1;
-  background-color: green;
- }

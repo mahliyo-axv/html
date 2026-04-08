@@ -1,25 +1,45 @@
-.box{
-    width: 100;
-    height: 100;
-    background-color: pink;
-    transition: transform 1s ease-in;
-    animation: misol 3s ease-in 1s infinite alternate;
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
 }
-@keyframes misol{
- 0%{
-    transform: translateX(0);
- }
-  50%{
-       transform:  translateX(800px) scale(2) rotate(360deg);   
+h1{
+    color: rgb(255, 217, 0);
     }
-60%{
-    transform: translate(800px) scale(2) rotate(360deg);
-}
-80%{
-    transform: translate(400px,400px) scale(2) rotate(360deg);
-}
-100%{
-transform: translate(0,0) scale(2) rotate(360deg);
-}
-  
-}
+    button{
+    height: 30px;
+    width: 70px;
+    border: 1px solid rgb(255, 217, 0);
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(255, 217, 0);
+    }
+    a{
+    margin-left: 50px;
+    text-decoration: none;
+    color: black;
+    } 
+    .continer{
+     width: 100%;
+     height: 400px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: bottom;
+     background-image: url("https://istanbul-tourist-information.com/wp-content/uploads/2022/02/Istanbul-Tourist-Information-1024x406.jpg");
+    }
+    .box{
+    text-align: center;
+    }
+    h2{
+    color: rgb(255, 217, 0);
+    }
+    .continer2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .box3{
+        width: 250px;
+    }

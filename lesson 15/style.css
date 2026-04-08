@@ -1,49 +1,101 @@
-*{
+body{
     margin: 0;
-    padding: 0;
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 35px;
-}
-.loga{
-    font-size: 25px;
-   font-weight: bold;
-   color: blue;
-   font-family:monospace;
-}
-a{
-    text-decoration: none;
-margin-left: 15px;
-font-size: 18px;
-color: black;
-}
-.boshsahifa{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color:rgba(29, 95, 236, 0.988);
-    height: 40vh;
-    padding: 10vh;
-    row-gap: 25px;
-}
-button{
-    height: 45px;
-    width: 150px;
-    border-radius: 5px;
-    border: none;
-    background-color: yellowgreen;
-    color: white;
-}
-.flexcontiner{
-    display: flex;
-}
-.box{
-    width: 100px;
-    line-height: 100px;
-   
 }
 
+header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: rgb(63, 63, 63);
+   color: white;
+   padding: 10px 20px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 40px;
+}
+a{
+   margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+h3{
+    color: rgb(255, 200, 0);
+    text-align: right;
+}
+.continer{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.box1{
+    text-align: left;
+    background-color: rgb(225, 221, 221);
+    height: 300px;
+    width: 250px;
+    color: rgb(165, 158, 158);
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(55, 55, 55);
+    width: 630px;
+    height: 300px;
+    color: white;
+}
+.continer1{
+display: flex;
+gap: 20px;
+justify-content: center;
+margin: 8px;
+}
+.box2{
+    color: rgb(165, 158, 158);
+width: 285px;
+height: 300px;
+}
+.box3{
+    float: left;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+   height: 80px;
+   background-color: rgb(55, 55, 55);
+}
+.continer2{
+display: flex;
+gap: 20px;
+justify-content: center;
+margin: 8px;
+}
+.box4{
+color: rgb(165, 158, 158);
+width: 200px;
+height: 300px;
+
+}
+.box5{
+    color:white;
+display: flex;
+align-items: center;
+ justify-content: center;
+height: 100px;
+width: 215px;
+background-color: rgb(55, 55, 55);
+}
+footer{
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-start;
+   align-content: flex-start;
+    height: 100px;
+    background-color: black;
+    color: rgb(170, 170, 162);
+}

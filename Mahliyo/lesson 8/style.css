@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.continer{
+    display: grid;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr)  ;
+
+}
+.box{
+    color: white;
+    text-align: center;
+    background-color: pink;    
+}
+.red{
+   grid-column: 2 /4;
+}
+.blue{
+    grid-row: 2 / 4;
+}
+.green{
+   grid-column: 4 /4;
+   grid-row: 2 / 4
+}
+.rt{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.the{
+    color: white;
+    background-color: rgb(83, 73, 73);
+}
+.we{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(117, 117, 243);
+}
+.tr{
+    background-color: rgb(50, 180, 255);
+}
+.ht{
+    background-color: rgb(137, 250, 214);
+}

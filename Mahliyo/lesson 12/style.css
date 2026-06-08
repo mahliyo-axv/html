@@ -1,0 +1,25 @@
+body{
+    background-color: bisque;
+}
+.continer{
+    display: flex; 
+}
+.continer2{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    border: solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    width: 150px;
+    background-color: white;
+}
+img{
+    border-radius: 10px;
+}
+a{
+    color: rgb(209, 14, 14);
+    text-decoration: none;
+}

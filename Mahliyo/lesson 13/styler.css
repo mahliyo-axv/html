@@ -1,0 +1,34 @@
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+main{
+    text-align: center;
+}
+table{
+    text-align: center;
+    height: 100px;
+    width: 685px;
+}
+.continer{
+    display: flex; 
+}
+.box{
+    margin: 5px;
+    padding: 5px;
+    width: 250px;
+    background-color: white;
+}
+
+p{
+    text-align: left;
+    width: 685px;
+}

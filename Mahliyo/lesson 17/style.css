@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(241, 237, 237);
+   margin: 0;
+}
+header{
+   display: flex;
+   align-items: center;
+   align-content: center;
+   justify-content: space-evenly;
+   background-color: white;
+   
+   gap: 30px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    width: 150px;
+    height: 40px;
+    border: 1px solid rgb(244, 162, 10);
+    border-radius: 20px;
+    background-color: rgb(244, 162, 10);
+   color: white;
+}
+.continer{
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2,1fr);
+}
+.box1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin: 7px;
+    gap: 10px;
+    width: 500px;
+}
+h3{
+    color: rgb(244, 162, 10);
+}

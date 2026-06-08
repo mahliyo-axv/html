@@ -1,0 +1,28 @@
+.continer{
+    display: flex;
+    align-items: center;
+     justify-content: space-around;
+    gap: 10px;
+height: 50px;
+}
+.continer2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+}
+.div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+   
+}
+select{
+    width: 200px;
+}
+button{
+    height: 40px;
+    background-color: rgb(12, 253, 245);
+    border: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,42 @@
+<html >
+<head>
+ <title>Animatsiya</title>
+<style>
+.box{
+margin: 200px auto;
+height: 90px;
+width: 90px;
+background-color: pink;
+border: 1px solid black;
+animation: box ease-in 3s infinite;
+}
+@keyframes box{
+    0%{
+        transform:translateX(0);
+    }
+    50%{
+        transform: translateX(-250px);
+    }
+    60%{
+        transform: translateX(250px);
+    }
+    70%{
+         transform:translateX(0);
+    }
+    80%{
+        transform: translateY(250px);
+    }
+    90%{
+         transform: translateY(-200px);
+    }
+    100%{
+        transform:translateX(0);
+    }
+}
+   
+    </style>
+</head>
+<body>
+    <div class="box "></div>
+</body>
+</html>
